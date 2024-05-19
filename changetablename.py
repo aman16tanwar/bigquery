@@ -49,7 +49,7 @@ def rename_tables_in_dataset(project_id, dataset_id, columns_to_remove=None):
         print(f"Error: {e}. Dataset {dataset_id} not found in project {project_id}")
 
 # Parameters
-project_id = 'sun-peaks-resort'
+project_id = 'add_GCP_project_id'   # The GCP project id you are renaming tables within 
 dataset_id = 'client_ua'  # The dataset you are renaming tables within
 columns_to_remove = []  # No columns to remove
 
